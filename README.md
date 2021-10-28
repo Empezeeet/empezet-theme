@@ -1,0 +1,2 @@
+# empezet-theme
+BetterDiscord Theme

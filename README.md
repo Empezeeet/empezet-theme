@@ -8,7 +8,7 @@ Discord theme based on Neutron8 with addons:
 
 ## How to install:
   1. Install [BetterDiscord](https://betterdiscord.app)
-  2. Download [this theme](https://github.com/Empezeeet/empezet-theme/tree/main/src)
+  2. Download [file called 'Emtezet.theme.css'](https://github.com/Empezeeet/empezet-theme/tree/main/src)
   3. Go to **settings** and **Themes**
   4. Click **Open Themes Folder**
   5. Paste downloaded file (should be called Emtezet.theme.css)

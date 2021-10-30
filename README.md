@@ -1,4 +1,4 @@
-#***THIS PROJECT IS IN WORK***
+***!!! YOU CANT INSTALL IT NOW !!!***
 
 ## Emtezet Theme
 Discord theme based on Neutron8 with addons:

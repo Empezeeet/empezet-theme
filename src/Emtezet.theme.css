@@ -11,6 +11,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans');
 
 
+
+/*SEND NUKES - test*/
+
 /*REVERT REBRAND*/
 
     @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css');
@@ -110,7 +113,7 @@
 
 
 /*
-*                       BOT TAGS
+*                       BOT TAGS 
 */
 .botTag-3W9SuW.botTagRegular-2HEhHi.botTag-2WPJ74.px-10SIf7 {
     background: rgba(30, 190, 80, 1);
@@ -437,6 +440,7 @@ a:hover {
 */
         .container-2lgZY8 {
             /*App Background*/
+            color: yellow;
             
         }
 .scrollableContainer-2NUZem.webkit-HjD9Er {

@@ -60,8 +60,8 @@
     --themeColor2: transparent/*#5680d4*/;
     --customFont: 'Open Sans';
     --homeImageSize: cover;
-    --backgroundColor: rgba(255, 19, 255, 0.75);
-    --backgroundImage: url('https://i.imgur.com/yRe3F1R.jpg');
+    --backgroundColor: rgba(0, 0, 0, 0.75);
+    --backgroundImage: /*url('https://i.imgur.com/yRe3F1R.jpg')*/;
     --backgroundPosition: fill;
     --backgroundSize: cover;
     --backgroundRepeat: no-repeat;

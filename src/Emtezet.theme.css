@@ -11,9 +11,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans');
 
 
-
-
-
 /*REVERT REBRAND*/
 
     @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css');
@@ -440,7 +437,7 @@ a:hover {
 */
         .container-2lgZY8 {
             /*App Background*/
-            color: yellow;
+            background-color: yellow;
             
         }
 .scrollableContainer-2NUZem.webkit-HjD9Er {

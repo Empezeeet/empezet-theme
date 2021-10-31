@@ -1,5 +1,3 @@
-***!!! YOU CANT INSTALL IT NOW !!!***
-
 ## Emtezet Theme
 Discord theme based on Neutron8 with addons:
   -[RadialStatus](https://betterdiscord.app/theme/RadialStatus)

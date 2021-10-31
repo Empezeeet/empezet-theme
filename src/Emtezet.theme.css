@@ -1,6 +1,6 @@
 /**
 * @name Emtezet
-* @version 0.2.0
+* @version 1.0.0
 * @description Empezeeet theme based on Neutron8 + addons (All addons on GitHub)
 * @author Empezeeet
 * @invite 
@@ -37,7 +37,7 @@
     --badge-size: 22px; /*discord defualt = 18px, theme defualt = 22px;*/
     --badge-margin: 1.5px; /*discord default = 2px, theme defualt = 1.5px*/
     --badges-everywhere-size: 15px; /*default = 15px*/
-
+    
 
 
 
@@ -75,7 +75,7 @@
     --rs-large-width: 4px;
     --rs-avatar-shape: 50%;
     --rs-online-color: #0fe484;
-    --rs-idle-color: #ffa200;
+    --rs-idle-color: #ffa200; 
     --rs-dnd-color: #ce1c1c;
     --rs-offline-color: #636b75;
     --rs-streaming-color: #643da7;
@@ -93,6 +93,7 @@
 
     
 }
+
 /*TEST*/
 .peopleListItem-2nzedh {
     background-color: transparent;
@@ -131,16 +132,21 @@ a:hover {
 	color: skyblue;
 }
 
+/*Home Button*/
+    .tutorialContainer-2sGCg9 .childWrapper-anI2G9 {
+        
+        background-color: yellow;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: var(--homeImage); 
+        background-size: var(--homeImageSize);
+        background-clip: border-box
 
-.tutorialContainer-2sGCg9 .childWrapper-anI2G9 {
-    /*Home Button*/
-    background-color: transparent;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: var(--homeImage);
-    background-size: var(--homeImageSize);
-    background-clip: border-box
-}
+
+    }
+    .tutorialContainer-2sGCg9.childWrapper-anI2G9:hover {
+        animation: rgbChange_bg  2.5s ease infinite;
+    }
 
 
 /*
@@ -159,11 +165,13 @@ a:hover {
 /*Start Page*/
 .container-1D34oG {
     background-color: transparent;
+    
 }
 
 
 /*Animations*/
     /*BG ANIMATION*/
+
     
         @keyframes background-animation {
             from {
@@ -193,17 +201,17 @@ a:hover {
         
     }
     @keyframes rgbChange_bg {
-        0% { background-color:   rgba(60,15,86, .8);}
-        10% { background-color:  rgba(160,15,86, .8);}
-        20% { background-color:  rgba(50,215,86, .8);}
-        30% { background-color:  rgba(90,15,186, .8);}
-        40% { background-color:  rgba(200,215,86, .8);}
-        50% { background-color:    rgba(260,15,186, .8);}
-        60% { background-color:    rgba(150,125,286, .8);}
-        70% { background-color:  rgba(220,155,186, .8);}
-        80% { background-color:  rgba(190,185,86, .8);}
-        90% { background-color:    rgba(10,165,286, .8);}
-        100% { background-color: rgba(60,15,86, .8);}
+        0% { background-color:   rgba(60,15,86, .5);}
+        10% { background-color:  rgba(160,15,86, .5);}
+        20% { background-color:  rgba(50,215,86, .5);}
+        30% { background-color:  rgba(90,15,186, .5);}
+        40% { background-color:  rgba(200,215,86, .5);}
+        50% { background-color:    rgba(260,15,186, .5);}
+        60% { background-color:    rgba(150,125,286, .5);}
+        70% { background-color:  rgba(220,155,186, .5);}
+        80% { background-color:  rgba(190,185,86, .5);}
+        90% { background-color:    rgba(10,165,286, .5);}
+        100% { background-color: rgba(60,15,86, .5);}
       
     }
     @keyframes rgbChange {
@@ -220,6 +228,8 @@ a:hover {
         100% { color: rgba(60,15,86, .8);}
       
     }
+
+    
 
     
         
@@ -416,7 +426,14 @@ a:hover {
 */
         .container-2lgZY8 {
             /*App Background*/
+            
         }
+.scrollableContainer-2NUZem.webkit-HjD9Er {
+    /*CHAT INPUT (BLOCK)*/
+    background-color: rgb(255, 255, 255, 0.1);
+}
+
+
 
 
 
@@ -659,7 +676,7 @@ a:hover {
     
 }
 .circleIconButton-1XqULR.circleButtonBase-33sh5_:hover {
-    animation: rgbChange 2.5s ease infinite;
+     animation: rgbChange 2.5s ease infinite; 
 }
 
 

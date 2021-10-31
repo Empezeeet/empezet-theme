@@ -1,6 +1,6 @@
 /**
 * @name Emtezet
-* @version 1.0.0
+* @version 1.0.1
 * @description Empezeeet theme based on Neutron8 + addons (All addons on GitHub)
 * @author Empezeeet
 * @invite 
@@ -250,6 +250,17 @@ a:hover {
     animation-iteration-count: infinite;
 }
 
+
+.contextMenuNub-3yOOYo.colorable-1bkp8v.primaryDark-3mSFDl {
+    visibility: hidden;
+    /*MINI-context menu on Voice chat */
+}
+
+.controlButton-2MhVEL.centerButton-3CaNcJ.colorable-1bkp8v.primaryDark-3mSFDl.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN {
+    display: block;
+    pointer-events: none;
+
+}
 
 
 
@@ -697,8 +708,7 @@ a:hover {
         background-color: transparent;
     }
     .closeButton-1tv5uR {
-        position: absolute;
-        right: 1267px;
+        visibility: hidden;
     }
 
 /*Threads*/
@@ -725,10 +735,32 @@ a:hover {
 }
 
 
+.controlButton-2MhVEL.centerButton-3CaNcJ.colorable-1bkp8v.red-33-Lnk.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN {
+   /*DISCONNECT / STOP WATCHING BUTTON ON VOICE CHANNEL PANEL*/
+    visibility: visible;
+    width: 50px;
+    zoom: 1;
+    position: absolute;
+    left: 540px;
+    bottom: -40px;
+    
+    
+
+
+}
+
+
+
+
+
 .channelIcon-1MN1lz {
     position: relative;
     top: 5px;
 
+}
+
+.avatarSpeaking-2c8-9i {
+    visibility: hidden;
 }
 
 .nameAndDecorators-5FJ2dg {

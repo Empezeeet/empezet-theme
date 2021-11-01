@@ -10,6 +10,14 @@ Discord theme based on Neutron8 with addons:
   3. Paste there this `@import url("https://empezeeet.github.io/empezet-theme/src/Emtezet.theme.css ");`
   4. Then Click `Live Update` Button
   5. Now you have my theme that automatically updates!
+## How to install v2:
+  1. Install [BetterDiscord](https://betterdiscord.app)
+  2. Download [theme](https://empezeeet.github.io/empezet-theme/)
+  3. Go to Discord settings
+  4. Go to Themes
+  5. Click 'Open Themes Folder'
+  6. Paste there theme that you just downloaded
+  7. If you need help report it on [Issues Page](https://github.com/Empezeeet/empezet-theme/issues)
   
 ## How to Uninstall (This Theme):
   1. Go to Discord Settings Then to Custom CSS

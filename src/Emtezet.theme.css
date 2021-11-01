@@ -54,7 +54,7 @@
     
     
 
-    --homeImage: url(https://i.imgur.com/sc69E3m.jpg);
+    --homeImage: url('https://empezeeet.github.io/empezet-theme/img/HomeButtonImage.jpg');
 	
     --themeColor1: transparent/*#1db954*/;
     --themeColor2: transparent/*#5680d4*/;
@@ -770,5 +770,30 @@ a:hover {
 }
 
    
-    
+/* settings/deafen/mute buttons animated */
+.button-14-BFJ:hover .contents-18-Yxp {
+    animation: UserModalButtons 0.5s normal ease;
+  }
+  .container-3baos1 .noWrap-3jynv6 {
+    width: 100px;
+    opacity: 1;
+  }
+  .button-14-BFJ {
+    transition: 0.2s;
+  }
+  .button-14-BFJ:hover {
+    padding-bottom: 0px;
+    transition: 0.2;
+  }
+  @keyframes UserModalButtons {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
 

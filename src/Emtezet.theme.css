@@ -60,7 +60,7 @@
     --themeColor2: transparent/*#5680d4*/;
     --customFont: 'Open Sans';
     --homeImageSize: cover;
-    --backgroundColor: rgba(0, 0, 0, 0.5);
+    --backgroundColor: rgba(0, 0, 0, 0.75);
     --backgroundImage: url('https://i.imgur.com/yRe3F1R.jpg');
     --backgroundPosition: fill;
     --backgroundSize: cover;
@@ -113,11 +113,11 @@
 *                       BOT TAGS 
 */
 .botTag-3W9SuW.botTagRegular-2HEhHi.botTag-2WPJ74.px-10SIf7 {
-    background: rgba(30, 190, 80, 1);
+    background: rgba(30, 190, 80, 0.75);
 
 }
 .botTagCozy-1fFsZk.botTag-1un5a6.botTagRegular-2HEhHi.botTag-2WPJ74.rem-2m9HGf {
-    background: rgba(30, 190, 80, 1);
+    background: rgba(30, 190, 80, 0.75);
 }
 
 /*

@@ -229,6 +229,23 @@ a:hover {
       
     }
 
+    @keyframes notification_red{
+        from {
+            background-color: rgba(255, 39, 60, 0.2);
+        }
+        
+        50% {
+            background-color: rgba(255, 39, 60, 1)
+        }
+
+       
+        
+        to {
+            background-color: rgba(255, 39, 60, 0.2);
+        }
+        
+    }
+
     
 
     

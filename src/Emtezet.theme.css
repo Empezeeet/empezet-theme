@@ -852,5 +852,23 @@ a:hover {
     animation: notification_red 2.5s ease infinite;
 }
 
+.avatarUploaderInner-3UNxY3.avatarUploaderInnerSquare-1VbIoA.avatarUploaderInnerSquareDisabled-2Cz_em {
+    /*Upload server banner*/
+    background-color: rgba(47, 49, 54, 1); /*?Deafult Discord background color*/
+}
+
+.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB.removeButton-1hcZyG:hover {
+    /*Remove button below invite background*/
+    color: #ce1c1c;
+}
+
+.descriptionWrapper-1GiGtP, .inputDefault-_djjkz.input-cIJ7To.textArea-1Lj-Ns.scrollbarDefault-3COgCQ.scrollbar-3dvm_9.descriptionInput-3b30C8 {
+    /*SERVER WELCOME DESCRIPTION*/
+    border-radius: 10px 10px 15px 15px;
+    background-color: black;
+    text-align: center;
+
+
+}
 
 

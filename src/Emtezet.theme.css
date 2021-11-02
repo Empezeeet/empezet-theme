@@ -437,12 +437,19 @@ a:hover {
 */
         .container-2lgZY8 {
             /*App Background*/
-            
+            color: none;
             
         }
 .scrollableContainer-2NUZem.webkit-HjD9Er {
     /*CHAT INPUT (BLOCK)*/
     background-color: rgb(255, 255, 255, 0.1);
+}
+
+.placeholder-37qJjk.fontSize18Padding-2RUesG {
+    /*Chat input Placeholder*/
+    position: relative;
+    width: 1000px;
+
 }
 
 

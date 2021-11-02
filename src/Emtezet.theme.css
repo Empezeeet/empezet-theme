@@ -817,13 +817,22 @@ a:hover {
     color: transparent;
 }
 
-.titleContainer-2CXtJo.titleElevated-c_kdi7 {
+.titleContainer-2CXtJo.titleElevated-c_kdi7, .titleContainer-2CXtJo, .header-2mZ9Ov{
+    /*ALL ROLES HEADER*/
     background-color: transparent;
 }
 
 .header-2mZ9Ov.stickyHeader-hH_ZLl {
-    background-color: transparent;
+    /*ROLE SETTINGS HEADER*/
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 0px 0px 15px 15px;
+    backdrop-filter: blur(25px);
 
+}
+
+.dot-2s_oHI {
+    /*Server Template Dot*/
+    animation: notification_red 2.5s ease infinite;
 }
 
 

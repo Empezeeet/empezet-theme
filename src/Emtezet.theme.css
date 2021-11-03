@@ -1,6 +1,6 @@
 /**
 * @name Emtezet
-* @version 1.0.1
+* @version 1.1.0
 * @description Empezeeet theme based on Neutron8 + addons (All addons on GitHub)
 * @author Empezeeet
 * @invite 
@@ -30,8 +30,6 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
 
 /* @import url(https://capnkitten.github.io/BetterDiscord/Themes/Spotify-Discord/css/source.css);  */   
- 
-
 
 :root {
     
@@ -129,21 +127,7 @@ a:hover {
 	color: skyblue;
 }
 
-/*Home Button*/
-    .tutorialContainer-2sGCg9 .childWrapper-anI2G9 {
-        
-        background-color: yellow;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-image: var(--homeImage); 
-        background-size: var(--homeImageSize);
-        background-clip: border-box
 
-
-    }
-    .tutorialContainer-2sGCg9.childWrapper-anI2G9:hover {
-        animation: rgbChange_bg  2.5s ease infinite;
-    }
 
 
 /*
@@ -242,6 +226,8 @@ a:hover {
         }
         
     }
+
+    
 
     
 
@@ -453,6 +439,7 @@ a:hover {
             /*App Background*/
             color: none;
             
+            
         }
 .scrollableContainer-2NUZem.webkit-HjD9Er {
     /*CHAT INPUT (BLOCK)*/
@@ -465,7 +452,6 @@ a:hover {
     width: 1000px;
 
 }
-
 
 
 
@@ -790,7 +776,6 @@ a:hover {
     margin-bottom: 2px;
 }
 
-
 .callContainer-36WRfH.theme-dark {
     /*Call background*/
     background-color: transparent;
@@ -867,5 +852,6 @@ a:hover {
 
 
 }
+
 
 

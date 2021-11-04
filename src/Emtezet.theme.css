@@ -851,5 +851,12 @@ a:hover {
 
 }
 
+.circleIconButton-hZmpE8 {
+    background-color: transparent;
+}
+.circleIconButton-hZmpE8.selected-3mFF3I:hover {
+    animation: rgbChange 2.5s ease infinites;
+}
+
 
 

@@ -1,6 +1,6 @@
 /**
 * @name Emtezet
-* @version 1.1.1
+* @version 1.0.2
 * @description Empezeeet theme based on Neutron8 + addons (All addons on GitHub)
 * @author Empezeeet
 * @invite 
@@ -882,5 +882,15 @@ a:hover {
     color: white;
 }
 
+.unreadPill-2HyYtt {
+    background-color: rgba(240, 71, 71, 1);
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    width: 50px;
+    
+}
 
+.unreadPillCap-3_K2q2 {
+    text-align: center;
+}
 

@@ -1,11 +1,13 @@
 /**
 * @name Emtezet
-* @version 1.1.0
+* @version 1.1.1
 * @description Empezeeet theme based on Neutron8 + addons (All addons on GitHub)
 * @author Empezeeet
 * @invite 
 * @source https://www.youtube.com/watch?v=iik25wqIuFo
 */
+
+
 @import url("https://codedotspectra.github.io/themes/themes-cores/neutron8.css");
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans');
@@ -27,11 +29,17 @@
 
 
 
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
+/*@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);*/
 
 /* @import url(https://capnkitten.github.io/BetterDiscord/Themes/Spotify-Discord/css/source.css);  */   
+ 
+@import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
 
 :root {
+    
+    --badge-size: 22px; /*discord defualt = 18px, theme defualt = 22px;*/
+    --badge-margin: 1.5px; /*discord default = 2px, theme defualt = 1.5px*/
+    --badges-everywhere-size: 15px; /*default = 15px*/
     
 
 
@@ -97,7 +105,12 @@
 }
 
 
-
+.wrapper-1BJsBx, .wrapper-1BJsBx.selected-bZ3Lue, .homeIcon-AaowEC, .childWrapper-anI2G9 {
+    
+    color: white;
+    background-image: var(--homeImage);
+    visibility: visible;
+}
 
 
 
@@ -154,15 +167,17 @@ a:hover {
     /*BG ANIMATION*/
 
     
-        @keyframes background-animation {
-            from {
-                background-color: rgba(255, 0, 0, 0.0);
+        @keyframes nsfw_animation {
+            from { 
+                
+                background-color: rgba(206, 28, 28, 0.2);
             }
             50% {
-                background-color: rgba(255, 255, 255, 1);
+                background-color: rgba(206, 28, 28, 1);
+                
             }
             to {
-                background-color: rgba(255, 0, 0, 0.0);
+                background-color: rgba(206, 28, 28, 0.2);
             }
         }
     @keyframes unreaded_channel{
@@ -853,9 +868,18 @@ a:hover {
 
 .circleIconButton-hZmpE8 {
     background-color: transparent;
+    color: white;
+
 }
 .circleIconButton-hZmpE8.selected-3mFF3I:hover {
-    animation: rgbChange 2.5s ease infinites;
+    background-color: none;
+    background: none;
+    animation: rgbChange 2.5s ease infinite;
+}
+
+.textBadge-1iylP6.base-PmTxvP.baseShapeRound-1Mm1YW {
+    animation: nsfw_animation 3s ease infinite;
+    color: white;
 }
 
 

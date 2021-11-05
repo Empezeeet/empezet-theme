@@ -894,3 +894,53 @@ a:hover {
     text-align: center;
 }
 
+
+/*Create new server*/
+.container-1CE3eW {
+    background-color: black;
+}
+.container-UC8Ug1 {
+    background-color: rgba(255, 255, 255, 0.1);;
+    
+}
+.footerTitle-2CYZch.fontDisplay-1dagSA.base-1x0h_U.size20-17Iy80 {
+    color: white;
+}
+.title-3w8xhj.fontDisplay-1dagSA.base-1x0h_U.size24-RIRrxO {
+    color: white;
+}
+.footerButton-ayFTfX.button-38aScr.lookFilled-1Gx00P.colorGrey-2DXtkV.sizeMedium-1AC_Sl.grow-q77ONN {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.colorStandard-2KCXvj.size16-1P40sf.text-1FOLJS {
+    color: white;
+}
+.colorHeaderSecondary-3Sp3Ft.size16-1P40sf.subtitle-Nw1LLR 
+{
+    color: white;
+}
+
+
+.emptyChannelIcon-cc932w:hover, .iconWrapper-L3hQuc:hover {
+/*First message Icon on channel*/
+visibility: visible;
+animation: rgbChange_bg 3s ease infinite;
+}
+
+.iconWrapper-2OrFZ1:hover {
+/*Channel typeIcon*/
+visibility: visible;
+animation: rgbChange_bg  3s ease infinite;
+border-radius: 10px 10px 10px 10px;
+}
+
+.contents-18-Yxp.giftButton-2uAsFo{
+   color: black;
+}
+
+#popout_53 {
+/*Status Picker*/
+position: relative;
+top: 600px;
+}
+

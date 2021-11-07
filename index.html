@@ -10,7 +10,9 @@
                 background-color: rgba(18, 18, 18, 1); 
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                 
-                backdrop-filter: blur(10px);
+                overflow-x: hidden; 
+                width: inherit;
+                height: inherit;
                 
 
             }
@@ -22,7 +24,7 @@
                 color: white;
                 text-align: center;
             }
-            a:link, a:visited {
+            a:link, a:visited { 
                 color: rgb(114,160,231);
             }
             h3 {
@@ -44,7 +46,11 @@
             }
 
             .zoom:active {
-                transform: scale(1.5);
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+                
             }
             .widget {
                 position: relative;
@@ -52,26 +58,48 @@
                 margin-right: auto;
                 left: 40%;
             }
-            .Help-Form {
-                position: relative;
-                margin-left: auto;
-                margin-right: auto;
-                left: 43%;
-                zoom: 1.5;
-                
-            }
-            #Message-Input {
-                width: 100px;
-                
-            }
+            
+           
             .inputType-email {
-                color: #000000;
+                color: #fff;
+                border-radius: 5px 5px 5px 5px;
+                background-color: rgba(255, 255, 255, 0.0);
+                zoom: 1.2;
+                
             }
             html {
                 scroll-behavior: smooth;
+            }
+            .inputTybe-Message {
+                border-radius: 5px 5px 5px 5px;
+                resize: none;
                 
+                background-color: rgba(255, 255, 255, 0.0);
+                zoom: 1.2;
+                width: 162px;
+                color: white;
+
+            }
+            .inputTybe-Message::selection {
+                background-color: whitesmoke;
+            }
+            .imageVS-image {
+                float: left;
+                width: 49%;
+                padding: 5px;
+            }
+            .imageVS::after {
+                content: "";
+                clear: both;
+                display: table;
                 
             }
+            .Help-Form {
+                margin: 0 auto; 
+                width: 200px;
+                zoom: 1.5;
+            }
+
             
             
             
@@ -81,19 +109,37 @@
         <h1 class="mainH1">Empezeeet Discord Theme!</h1>
         <h2>Empezeeet Discord Theme is dark mode theme that customizes your Discord apperance</h2>
         <h2 id="h2.1" width="0" height="0">If you want to download it click <a href="https://github.com/Empezeeet/empezet-theme/tree/main/src">this link</a></h2>
-        <h3>If need help installing it go to <a href="https://github.com/Empezeeet/empezet-theme">GitHub Repository</a> or send <a href="#Help-Form-id">Help Form</a></h3>
-        <h2>Theme Preview (Click and hold to zoom)</h2>
-        <img src="https://empezeeet.github.io/empezet-theme/www/theme-preview.png" class="center zoom">
-        <h1> </h1>
-        <h1> </h1>
-        <h1> </h1>
-        <h1>Features & Addons</h1>
-        <h3>This theme uses <a href="https://betterdiscord.app/theme/RadialStatus">Radial Status</a> and <a href="https://betterdiscord.app/theme/Revert%20Rebrand">Revert Rebrand</a> Addons</h3>
-        <h3>It also adds new colors, new fonts, new <u><b>animations</b></u>, half-transparent background and more! Screenshot that is shown above show how this theme changes apperance of discord.</h3>
-        <h3>Image below shows same situation but without theme</h3>
-        <img src="https://empezeeet.github.io/empezet-theme/www/without-theme.png" class="center zoom">
+        <h3>If need help installing it go to <a href="https://github.com/Empezeeet/empezet-theme">GitHub Repository</a> or use <a href="#HelpFormH1" >Help Form</a></h3>
+        <h2>Theme Comparison</h2>
         
-        <h1>Help Form (<u>ENG</u>)</h1>
+        
+        <br>
+        
+
+        <div class="imageVS">
+
+            <div class="imageVS-image">
+
+                <img style="width: 100%" alt="With Theme" src="https://empezeeet.github.io/empezet-theme/www/Theme-preview.gif" class=""> 
+            
+            </div>
+
+            <div class="imageVS-image">
+
+                <img style="width: 100%" alt="Without Theme" src="https://empezeeet.github.io/empezet-theme/www/without-theme.png" class="">
+            
+            </div>
+
+        </div>
+        
+        <br>
+       
+        <h1>Features & Addons</h1>
+        <h3>This theme uses <a href="https://betterdiscord.app/theme/RadialStatus">Radial Status</a> and <a onclick="">Revert Rebrand</a> Addons</h3>
+        <h3>It also adds new colors, new fonts, new <u><b>animations</b></u>, half-transparent background and more!</h3>
+       <!--comment!-->
+        
+        <h1 id="HelpFormH1">Help Form (<u>ENG</u>)</h1>
         <form action="https://formspree.io/f/meqvbpre" method="POST" class="Help-Form" id="Help-Form-id">
 
             <div id="Email-Input">
@@ -101,27 +147,27 @@
                     <input type="email" name="_replyto" placeholder="E-Mail" class="inputType-email">
                 </label>
             </div>
+            <br>
             <div id="Message-Input">
                 <label class="textarea message">
-                    <textarea name="message" placeholder="Message"></textarea>
+                    <textarea name="message" placeholder="Message" class="inputTybe-Message"></textarea>
                 </label>
             </div>
-            <button type="submit" class="textarea sendButton">Send</button>
+            <button type="submit" class="sendbutton">Send</button>
         </form>
 
-
-
-
-
         <br>
         <br>
         <br>
-
 
         <h1>Discord Help Server (<u>Only PL</u>)</h1>
         <div class="widget">
             <iframe src="https://discord.com/widget?id=770675109345230898&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
         </div>
+
+        <br>
+        <br>
+        <br>
 
     </body>
 </html>

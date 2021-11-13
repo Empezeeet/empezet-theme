@@ -27,7 +27,7 @@
 
 :root {
         
-        --backgroundImage: var(--backgroundImage-Apple2);
+        --backgroundImage: var(--backgroundImage-Deafult);
 
                                             /**Themes**/
 
@@ -1001,7 +1001,9 @@ a:hover {
     background-color: rgba(32, 32, 64, 1);
 }
 
-
+.timestamp-1Dd_pn {
+    background-color: rgba(255, 255, 255, 0.05);
+}
 
 
 

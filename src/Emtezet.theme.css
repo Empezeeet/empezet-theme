@@ -1,7 +1,7 @@
 /**
 * @name Emtezet
 * @version 1.1.0
-* @description Empezeeet theme based on Neutron8 + addons (All addons on GitHub)
+* @description Empezeeet theme based on Neutron8 with addons (Addons on GitHub)
 * @author Empezeeet
 * @invite 
 * @source https://www.youtube.com/watch?v=iik25wqIuFo
@@ -31,20 +31,20 @@
 
                                             /**Themes**/
 
-        /*?Deafult*/--backgroundImage-Deafult: url(https://empezeeet.github.io/empezet-theme/background/wallpaperflare.com_wallpaper.jpg);
-        /*?RGBwindows*/--backgroundImage-RGBwindows: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_RGBwindows.jpg);
-        /*?Antman*/--backgroundImage-Antman: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_antman.jpg);
-        /*?Apple2*/--backgroundImage-Apple2: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_apple2.jpg);
-        /*?Apple1*/--backgroundImage-Apple1: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_apple1.jpg);
-        /*?Discord_Brillance*/--backgroundImage-Discord_Brillance: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_discord_brillance.jpg);
-        /*?DrStrange*/--backgroundImage-DrStrange: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_drStrange.jpg);
-        /*?Groot*/--backgroundImage-Groot: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_groot.jpg);
-        /*?IronMan*/--backgroundImage-IronMan: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_ironman.jpg);
-        /*?SpaceX*/--backgroundImage-SpaceX: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_spaceX.jpg);
-        /*?Star*/--backgroundImage-Star: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_star.jpg);
-        /*?StarWars*/--backgroundImage-StarWars: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_starwars.jpg);
-        /*?StarWars1*/--backgroundImage-StarWars1: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_starwars1.jpg);
-        /*?Vader*/--backgroundImage-Vader: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_vader.jpg);
+        /*Deafult*/--backgroundImage-Deafult: url(https://empezeeet.github.io/empezet-theme/background/wallpaperflare.com_wallpaper.jpg);
+        /*RGBwindows*/--backgroundImage-RGBwindows: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_RGBwindows.jpg);
+        /*Antman*/--backgroundImage-Antman: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_antman.jpg);
+        /*Apple2*/--backgroundImage-Apple2: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_apple2.jpg);
+        /*Apple1*/--backgroundImage-Apple1: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_apple1.jpg);
+        /*Discord_Brillance*/--backgroundImage-Discord_Brillance: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_discord_brillance.jpg);
+        /*DrStrange*/--backgroundImage-DrStrange: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_drStrange.jpg);
+        /*Groot*/--backgroundImage-Groot: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_groot.jpg);
+        /*IronMan*/--backgroundImage-IronMan: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_ironman.jpg);
+        /*SpaceX*/--backgroundImage-SpaceX: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_spaceX.jpg);
+        /*Star*/--backgroundImage-Star: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_star.jpg);
+        /*StarWars*/--backgroundImage-StarWars: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_starwars.jpg);
+        /*StarWars1*/--backgroundImage-StarWars1: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_starwars1.jpg);
+        /*Vader*/--backgroundImage-Vader: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_vader.jpg);
         
 
     --backgroundPosition: fill;

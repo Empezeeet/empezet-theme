@@ -1,20 +1,15 @@
 /**
 * @name Emtezet
-* @version 1.0.2
+* @version 1.0.1
 * @description Empezeeet theme based on Neutron8 + addons (All addons on GitHub)
 * @author Empezeeet
 * @invite 
 * @source https://www.youtube.com/watch?v=iik25wqIuFo
 */
-
-
 @import url("https://codedotspectra.github.io/themes/themes-cores/neutron8.css");
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans');
-
-
 /*REVERT REBRAND*/
-
     @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css');
     @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/hardcoded.css');
     @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/mentions.css');
@@ -26,14 +21,49 @@
     @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/general/inputs.css');
     @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/general/svgs.css');
     @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/general/other.css');
-
-
-
 /*@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);*/
-
 /* @import url(https://capnkitten.github.io/BetterDiscord/Themes/Spotify-Discord/css/source.css);  */   
- 
 @import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
+
+:root {
+    
+        --backgroundImage: var(--backgroundImage-Deafult);
+
+                                            /**Themes**/
+
+        /*?Deafult*/--backgroundImage-Deafult: url(https://empezeeet.github.io/empezet-theme/background/wallpaperflare.com_wallpaper.jpg);
+        /*?RGBwindows*/--backgroundImage-RGBwindows: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_RGBwindows.jpg);
+        /*?Antman*/--backgroundImage-Antman: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_antman.jpg);
+        /*?Apple2*/--backgroundImage-Apple2: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_apple2.jpg);
+        /*?Apple1*/--backgroundImage-Apple1: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_apple1.jpg);
+        /*?Discord_Brillance*/--backgroundImage-Discord_Brillance: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_discord_brillance.jpg);
+        /*?DrStrange*/--backgroundImage-DrStrange: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_drStrange.jpg);
+        /*?Groot*/--backgroundImage-Groot: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_groot.jpg);
+        /*?IronMan*/--backgroundImage-IronMan: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_ironman.jpg);
+        /*?SpaceX*/--backgroundImage-SpaceX: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_spaceX.jpg);
+        /*?Star*/--backgroundImage-Star: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_star.jpg);
+        /*?StarWars*/--backgroundImage-StarWars: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_starwars.jpg);
+        /*?StarWars1*/--backgroundImage-StarWars1: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_starwars1.jpg);
+        /*?Vader*/--backgroundImage-Vader: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_vader.jpg);
+        
+
+    --backgroundPosition: fill;
+    --backgroundSize: cover;
+    --backgroundRepeat: no-repeat;
+    --backgroundBlur: 0px;
+    --backgroundOpacity: 0.2;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 :root {
     
@@ -63,13 +93,12 @@
     --themeColor2: transparent/*#5680d4*/;
     --customFont: 'Open Sans';
     --homeImageSize: cover;
-    --backgroundColor: rgba(0, 0, 0, 0.75);
-    --backgroundImage: url('https://empezeeet.github.io/empezet-theme/background/RGB-visualizer.jpg');
-    --backgroundPosition: fill;
-    --backgroundSize: cover;
-    --backgroundRepeat: no-repeat;
-    --backgroundBlur: 100px;
-    --backgroundOpacity: 0.2;
+    
+    --backgroundColor: rgba(0, 0, 0, 1);
+
+
+
+
     --rs-small-spacing: 2px;
     --rs-medium-spacing: 3px;
     --rs-large-spacing: 4px;
@@ -164,22 +193,21 @@ a:hover {
 
 
 /*Animations*/
-    /*BG ANIMATION*/
 
     
-        @keyframes nsfw_animation {
-            from { 
-                
-                background-color: rgba(206, 28, 28, 0.2);
-            }
-            50% {
-                background-color: rgba(206, 28, 28, 1);
-                
-            }
-            to {
-                background-color: rgba(206, 28, 28, 0.2);
-            }
+    @keyframes nsfw_animation {
+         from { 
+            
+            background-color: rgba(206, 28, 28, 0.2);
         }
+        50% {
+            background-color: rgba(206, 28, 28, 1);
+            
+        }
+        to {
+            background-color: rgba(206, 28, 28, 0.2);
+        }
+    }
     @keyframes unreaded_channel{
         from {
             background-color: rgba(240, 248, 255, 0);
@@ -444,6 +472,7 @@ a:hover {
 .textArea-12jD-V.textAreaSlate-1ZzRVj.slateContainer-3Qkn2x {
     width: 500px;
     right: -70px;
+    overflow: none;
     
 
 }
@@ -459,7 +488,9 @@ a:hover {
 .scrollableContainer-2NUZem.webkit-HjD9Er {
     /*CHAT INPUT (BLOCK)*/
     background-color: rgb(255, 255, 255, 0.1);
+    overflow-y: disabled;
 }
+
 
 .placeholder-37qJjk.fontSize18Padding-2RUesG {
     /*Chat input Placeholder*/
@@ -866,81 +897,98 @@ a:hover {
 
 }
 
-.circleIconButton-hZmpE8 {
-    background-color: transparent;
-    color: white;
 
-}
-.circleIconButton-hZmpE8.selected-3mFF3I:hover {
-    background-color: none;
-    background: none;
-    animation: rgbChange 2.5s ease infinite;
-}
 
 .textBadge-1iylP6.base-PmTxvP.baseShapeRound-1Mm1YW {
+    /*Better NSFW Tag*/
     animation: nsfw_animation 3s ease infinite;
     color: white;
 }
+/*Unread message*/
+    .unreadPill-2HyYtt {
+        background-color: rgba(240, 71, 71, 1);
+        border-radius: 10px 10px 10px 10px;
+        text-align: center;
+        width: 50px;
+        
+    }
 
-.unreadPill-2HyYtt {
-    background-color: rgba(240, 71, 71, 1);
-    border-radius: 10px 10px 10px 10px;
-    text-align: center;
-    width: 50px;
-    
-}
-
-.unreadPillCap-3_K2q2 {
-    text-align: center;
-}
-
-
+    .unreadPillCap-3_K2q2 {
+        text-align: center;
+    }
 /*Create new server*/
-.container-1CE3eW {
-    background-color: black;
-}
-.container-UC8Ug1 {
-    background-color: rgba(255, 255, 255, 0.1);;
-    
-}
-.footerTitle-2CYZch.fontDisplay-1dagSA.base-1x0h_U.size20-17Iy80 {
-    color: white;
-}
-.title-3w8xhj.fontDisplay-1dagSA.base-1x0h_U.size24-RIRrxO {
-    color: white;
-}
-.footerButton-ayFTfX.button-38aScr.lookFilled-1Gx00P.colorGrey-2DXtkV.sizeMedium-1AC_Sl.grow-q77ONN {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-.colorStandard-2KCXvj.size16-1P40sf.text-1FOLJS {
-    color: white;
-}
-.colorHeaderSecondary-3Sp3Ft.size16-1P40sf.subtitle-Nw1LLR 
-{
-    color: white;
-}
+    .container-1CE3eW {
+        background-color: black;
+    }
+    .container-UC8Ug1 {
+        background-color: rgba(255, 255, 255, 0.1);;
+        
+    }
+    .footerTitle-2CYZch.fontDisplay-1dagSA.base-1x0h_U.size20-17Iy80 {
+        color: white;
+    }
+    .title-3w8xhj.fontDisplay-1dagSA.base-1x0h_U.size24-RIRrxO {
+        color: white;
+    }
+    .footerButton-ayFTfX.button-38aScr.lookFilled-1Gx00P.colorGrey-2DXtkV.sizeMedium-1AC_Sl.grow-q77ONN {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    .colorStandard-2KCXvj.size16-1P40sf.text-1FOLJS {
+        color: white;
+    }
+    .colorHeaderSecondary-3Sp3Ft.size16-1P40sf.subtitle-Nw1LLR 
+    {
+        color: white;
+    }
 
 
 .emptyChannelIcon-cc932w:hover, .iconWrapper-L3hQuc:hover {
-/*First message Icon on channel*/
-visibility: visible;
-animation: rgbChange_bg 3s ease infinite;
+    /*First message Icon on channel -- hover*/
+    visibility: visible;
+    animation: rgbChange_bg 3s ease infinite;
+    
+}
+
+.emptyChannelIcon-cc932w {
+    /*First message Icon on channel*/
+    background-color: transparent;
 }
 
 .iconWrapper-2OrFZ1:hover {
-/*Channel typeIcon*/
-visibility: visible;
-animation: rgbChange_bg  3s ease infinite;
-border-radius: 10px 10px 10px 10px;
+    /*Channel typeIcon*/
+    visibility: visible;
+    animation: rgbChange_bg  3s ease infinite;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .contents-18-Yxp.giftButton-2uAsFo{
-   color: black;
+       color: black;
 }
 
 #popout_53 {
-/*Status Picker*/
-position: relative;
-top: 600px;
+    /*Status Picker*/
+    position: relative;
+    top: 600px;
 }
+
+
+.circleIconButton-hZmpE8, .circleIconButton-hZmpE8.selected-3mFF3I {
+    color: blue;
+    background-color: yellow;
+    
+}
+
+.content-1LAB8Z.content-1SXGsJ.thin-1ybCId.scrollerBase-289Jih {
+    /*Events*/
+    background-color: #202225;
+    border-radius: 
+    0px 0px;
+}
+
+.select-2fjwPw.searchable-1Zl-ns.select-QHUX8_.lookFilled-22uAsw {
+    background-color: black;
+    
+}
+
+
 

@@ -1,6 +1,6 @@
 /**
 * @name Emtezet
-* @version 1.1.0
+* @version 1.1.1
 * @description Empezeeet theme based on Neutron8 with addons (Addons on GitHub)
 * @author Empezeeet
 * @invite 
@@ -27,7 +27,7 @@
 
 :root {
         
-        --backgroundImage: var(--backgroundImage-Deafult);
+        --backgroundImage: var(--backgroundImage-Apple2);
 
                                             /**Themes**/
 
@@ -989,6 +989,21 @@ a:hover {
     background-color: black;
     
 }
+
+.content-1LAB8Z.contentContainer-1f7Gvv.thin-1ybCId.scrollerBase-289Jih {
+    background-color: black;
+}
+
+.button-35J-bp.button-38aScr.lookFilled-1Gx00P.colorGrey-2DXtkV.sizeSmall-2cSMqn.grow-q77ONN {
+    background-color: rgba(32, 32, 32, 1);
+}
+.button-35J-bp.button-38aScr.lookOutlined-3sRXeN.colorPrimary-3b3xI6.borderGrey-w8_7oO.sizeSmall-2cSMqn.grow-q77ONN {
+    background-color: rgba(32, 32, 64, 1);
+}
+
+
+
+
 
 
 

@@ -1,6 +1,6 @@
 /**
 * @name Emtezet
-* @version 1.1.1
+* @version 1.1.2
 * @description Empezeeet theme based on Neutron8 with addons (Addons on GitHub)
 * @author Empezeeet
 * @invite 
@@ -193,6 +193,33 @@ a:hover {
 
 
 /*Animations*/
+
+    @keyframes backdrop-animation {
+        0% {backdrop-filter: hue-rotate(0deg);}
+        5% {backdrop-filter: hue-rotate(10deg);}
+        10% {backdrop-filter: hue-rotate(30deg);}
+        15% {backdrop-filter: hue-rotate(40deg);}
+        20% {backdrop-filter: hue-rotate(50deg);}
+        25% {backdrop-filter: hue-rotate(60deg);}
+        30% {backdrop-filter: hue-rotate(70deg);}
+        35% {backdrop-filter: hue-rotate(80deg);}
+        40% {backdrop-filter: hue-rotate(90deg);}
+        45% {backdrop-filter: hue-rotate(100deg);}
+        50% {backdrop-filter: hue-rotate(90deg);}
+        55% {backdrop-filter: hue-rotate(80deg);}
+        60% {backdrop-filter: hue-rotate(70deg);}
+        65% {backdrop-filter: hue-rotate(60deg);}
+        70% {backdrop-filter: hue-rotate(50deg);}
+        75% {backdrop-filter: hue-rotate(40deg);}
+        80% {backdrop-filter: hue-rotate(30deg);}
+        85% {backdrop-filter: hue-rotate(20deg);}
+        90% {backdrop-filter: hue-rotate(10deg);}
+        95% {backdrop-filter: hue-rotate(10deg);}
+        100% {backdrop-filter: hue-rotate(0deg);}
+    }
+
+
+
 
     
     @keyframes nsfw_animation {
@@ -481,7 +508,9 @@ a:hover {
 */
         .container-2lgZY8 {
             /*App Background*/
-            color: none;
+            color: yellow;
+            animation: backdrop-animation 5s ease infinite;
+            
             
             
         }
@@ -1004,6 +1033,7 @@ a:hover {
 .timestamp-1Dd_pn {
     background-color: rgba(255, 255, 255, 0.05);
 }
+
 
 
 

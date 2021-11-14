@@ -10,6 +10,7 @@ Discord theme based on Neutron8 with addons:
   3. Paste there this `@import url("https://empezeeet.github.io/empezet-theme/src/Emtezet.theme.css ");`
   4. Then Click `Live Update` Button
   5. Now you have my theme that automatically updates!
+  6. ***DISCLAIMER*** After update theme needs some time to update. You may need to restart discord with `CTRL + R` shortcut
 
 ## How to install (Not self-updating):
   1. Install [BetterDiscord](https://betterdiscord.app)

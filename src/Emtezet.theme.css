@@ -46,6 +46,9 @@
         /*StarWars1*/--backgroundImage-StarWars1: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_starwars1.jpg);
         /*Vader*/--backgroundImage-Vader: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_vader.jpg);
         
+        /*Custom1*/--backgroundImage-Custom1: url();
+        /*Custom2*/--backgroundImage-Custom2: url();
+        /*Custom3*/--backgroundImage-Custom3: url();
 
     --backgroundPosition: fill;
     --backgroundSize: cover;
@@ -1034,6 +1037,13 @@ a:hover {
     background-color: rgba(255, 255, 255, 0.05);
 }
 
+.timestamp-1Dd_pn {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.progressBarContainer-DLPbha.bar-1lIEUi {
+    background-color: rgba(0,0,0,0);
+}
 
 
 

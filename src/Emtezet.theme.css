@@ -45,10 +45,13 @@
         /*StarWars*/--backgroundImage-StarWars: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_starwars.jpg);
         /*StarWars1*/--backgroundImage-StarWars1: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_starwars1.jpg);
         /*Vader*/--backgroundImage-Vader: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_vader.jpg);
-        
+
         /*Custom1*/--backgroundImage-Custom1: url();
         /*Custom2*/--backgroundImage-Custom2: url();
         /*Custom3*/--backgroundImage-Custom3: url();
+
+
+
 
     --backgroundPosition: fill;
     --backgroundSize: cover;
@@ -198,8 +201,8 @@ a:hover {
 /*Animations*/
 
     @keyframes backdrop-animation {
-        0% {backdrop-filter: hue-rotate(0deg);}
-        5% {backdrop-filter: hue-rotate(10deg);}
+        0% {backdrop-filter: hue-rotate(10deg);}
+        5% {backdrop-filter: hue-rotate(20deg);}
         10% {backdrop-filter: hue-rotate(30deg);}
         15% {backdrop-filter: hue-rotate(40deg);}
         20% {backdrop-filter: hue-rotate(50deg);}
@@ -464,6 +467,8 @@ a:hover {
     /**/
     visibility: visible;
     right: 100px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    border-radius: 0px 0px 15px 15px;
 
 }
 
@@ -511,8 +516,9 @@ a:hover {
 */
         .container-2lgZY8 {
             /*App Background*/
-            color: yellow;
-            animation: backdrop-animation 5s ease infinite;
+            
+            /* animation: backdrop-animation 5s ease infinite;
+            animation-timing-function: linear; */
             
             
             
@@ -546,6 +552,7 @@ a:hover {
     
     bottom: 0px;
     zoom: 1;
+    
 }
 
 
@@ -567,12 +574,14 @@ a:hover {
 .actionButtons-14eAc_ {
     /*CAMERA & STREAM buttons*/
     position: absolute;
-    bottom: -67px;
+    bottom: -66px;
     right: 10px;
     zoom: 1;
     
     
     width: 96%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    border-radius: 15px 15px 0px 0px;
 
     
 }
@@ -715,7 +724,11 @@ a:hover {
 .button-1YfofB.buttonColor-7qQbGO.button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeSmall-2cSMqn.grow-q77ONN.button-1YfofB
 {
     vertical-align: top;
+    left: -2%;
+    
+    
 }
+
 
 
 .panel-24C3ux.activityPanel-28dQGo {
@@ -1010,9 +1023,14 @@ a:hover {
     
 }
 
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6.header-1TKi98.header-2MrRa6.separator-2-RRj_ {
+    background-color: transparent;
+
+}
+
 .content-1LAB8Z.content-1SXGsJ.thin-1ybCId.scrollerBase-289Jih {
     /*Events*/
-    background-color: #202225;
+    background-color: transparent /*#202225*/;
     border-radius: 
     0px 0px;
 }
@@ -1037,13 +1055,30 @@ a:hover {
     background-color: rgba(255, 255, 255, 0.05);
 }
 
-.timestamp-1Dd_pn {
-    background-color: rgba(255, 255, 255, 0.05);
-}
-
 .progressBarContainer-DLPbha.bar-1lIEUi {
     background-color: rgba(0,0,0,0);
 }
+
+.addButton-3bLyEA.forceVisible-2L54of.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN {
+    visibility: visible;
+    position: relative;
+    left: 50%;
+    top: 10%;
+}
+
+
+/*Channel topic and name popout*/
+    .content-1LAB8Z.content-2CeOl_.selectable.thin-1ybCId.scrollerBase-289Jih {
+        /*Content*/
+        background-color: rgb(22, 23, 26);
+        border-radius: 0px 0px 15px 15px;
+    }
+    .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.justifyBetween-2tTqYu.noWrap-3jynv6.header-1TKi98 {
+        /*Header*/
+        background-color: rgb(22, 23, 26);
+        border-radius: 15px 15px 0px 0px;
+    }
+
 
 
 

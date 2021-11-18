@@ -1,6 +1,6 @@
 /**
 * @name Emtezet
-* @version 1.1.2
+* @version 1.1.1
 * @description Empezeeet theme based on Neutron8 with addons (Addons on GitHub)
 * @author Empezeeet
 * @invite 
@@ -45,6 +45,7 @@
         /*StarWars*/--backgroundImage-StarWars: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_starwars.jpg);
         /*StarWars1*/--backgroundImage-StarWars1: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_starwars1.jpg);
         /*Vader*/--backgroundImage-Vader: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_vader.jpg);
+        /*Vader2 WARNING: HIGH QUALITY IMAGE! CAN AFFECT DISCORDAPP PERFORMANCE*/--backgroundImage-Vader2: url(https://empezeeet.github.io/empezet-theme/background/wallpaper_vader2.jpg);
 
         /*Custom1*/--backgroundImage-Custom1: url();
         /*Custom2*/--backgroundImage-Custom2: url();
@@ -100,7 +101,7 @@
     --customFont: 'Open Sans';
     --homeImageSize: cover;
     
-    --backgroundColor: rgba(0, 0, 0, 1);
+    --backgroundColor: rgba(1,1,1,1)/*rgba(9, 9, 10, 1)*/;
 
 
 
@@ -184,11 +185,10 @@ a:hover {
 
 
 .sprite-2iCowe { /*EMOJI*/
-    background: rgba(255, 0, 0, 1);
-    position: absolute;
-    right: -25px;
     visibility: hidden;
+
 }
+
 
 
 /*Start Page*/
@@ -507,7 +507,8 @@ a:hover {
 .textArea-12jD-V.textAreaSlate-1ZzRVj.slateContainer-3Qkn2x {
     width: 500px;
     right: -70px;
-    overflow: none;
+    overflow-y: none;
+    caret-color: red;
     
 
 }
@@ -527,6 +528,7 @@ a:hover {
     /*CHAT INPUT (BLOCK)*/
     background-color: rgb(255, 255, 255, 0.1);
     overflow-y: disabled;
+    
 }
 
 
@@ -534,7 +536,7 @@ a:hover {
     /*Chat input Placeholder*/
     position: relative;
     width: 1000px;
-
+    caret-color: red;
 }
 
 
@@ -559,6 +561,8 @@ a:hover {
 .inner-MADQqc.sansAttachButton-td2irx {
     /*TEXT PLACEHOLDER w chat-input*/
     margin-left: -80px;
+    overflow-y: hidden;
+    
     
 }
 
@@ -1022,6 +1026,10 @@ a:hover {
     background-color: yellow;
     
 }
+.wrapper-25eVIn {
+    color: blue;
+    backdrop-filter: blur(50px);
+}
 
 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6.header-1TKi98.header-2MrRa6.separator-2-RRj_ {
     background-color: transparent;
@@ -1080,7 +1088,16 @@ a:hover {
     }
 
 
-
+.grid-1nZz7S {
+    background-color: rgb(22, 23, 26);
+    
+}
+.tooltipContent-bqVLWK {
+    background-color: rgb(22, 23, 26);
+    border-radius: 15px 15px 15px 15px;
+    position: relative;
+    
+}
 
 
 

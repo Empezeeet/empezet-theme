@@ -1,6 +1,6 @@
 /**
 * @name Emtezet
-* @version 1.1.0
+* @version 1.1.6
 * @description Empezeeet theme based on Neutron8 with addons (Addons on GitHub)
 * @author Empezeeet
 * @invite 
@@ -27,7 +27,7 @@
 
 :root {
         
-        --backgroundImage: var(--backgroundImage-IronMan);
+        --backgroundImage: var(--backgroundImage-SpaceX);
 
                                             /**Themes**/
 
@@ -73,39 +73,21 @@
 
 
 :root {
-    
     --badge-size: 22px; /*discord defualt = 18px, theme defualt = 22px;*/
     --badge-margin: 1.5px; /*discord default = 2px, theme defualt = 1.5px*/
     --badges-everywhere-size: 15px; /*default = 15px*/
-    
-
-
-
     --columns:			1;							/* default:	3					(amount of servercolumns)																		*/
-	
 	--guildsize:		50;							/* default:	50					(serversize in pixel)																			*/
 	--guildgap:			3;							/* default:	3					(top/bottom gap between servers in pixel)														*/
-	
 	--aligndms:			1;
-
     --input-color: rgba(255, 255, 255, 0.02);
     --bar-color: rgba(0, 5, 10, 0);
-    
-    
-    
-
     --homeImage: url('https://empezeeet.github.io/empezet-theme/img/HomeButtonImage.jpg');
-	
     --themeColor1: transparent/*#1db954*/;
     --themeColor2: transparent/*#5680d4*/;
     --customFont: 'Open Sans';
     --homeImageSize: cover;
-    
     --backgroundColor: rgba(1,1,1,1)/*rgba(9, 9, 10, 1)*/;
-
-
-
-
     --rs-small-spacing: 2px;
     --rs-medium-spacing: 3px;
     --rs-large-spacing: 4px;
@@ -121,17 +103,18 @@
     --rs-invisible-color: #222529FF;
     --rs-phone-visible: block;
     --input-text-color: rgb(225, 225, 225);
-    
-
-  
-
-
-
-
-    
-
-    
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /*TEST*/
 .peopleListItem-2nzedh {
@@ -821,7 +804,8 @@ a:hover {
         background-color: transparent;
     }
     .closeButton-1tv5uR {
-        visibility: hidden;
+        visibility: visible;
+        
     }
 
 /*Threads*/
@@ -1106,6 +1090,22 @@ a:hover {
     border-radius: 15px 15px 15px 15px;
     position: relative;
     
+}
+
+
+.newMessagesBar-265mhP.barBase-1c2Rfb {
+    /*New message popout on top of chat area*/
+    background-color: rgb(51, 0, 0)
+}
+
+.contents-18-Yxp.giftButton-2uAsFo {
+    color: rgb(126, 126, 126);
+}
+.contents-18-Yxp.premiumSubscribeButton-3TowJw {
+    color: black
+}
+.contents-18-Yxp.giftButton-2uAsFo {
+    background-color: black;
 }
 
 
